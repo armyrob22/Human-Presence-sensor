@@ -4,4 +4,6 @@ This is my second version of this board. My first board had many errors and was 
 
 ![python simulation](documents/simulation.png)
 This is the result of my python script running a simulation of my chosen buck converter. I ran several different versions to see if my inductor sizing was correct. The reference design I used for most of my layout turned out to be really good for my given circuit. This is why i chose a 4.7uH inductor for my design. Even though this is my project and my own board I tried to treat it with the same care I will bring to the work place when I get to design other boards. The next big piece of the buck converter was to figure out the feedback sense resistor values required. My converter has a reference voltage of 0.8v. This means the formula I used is
-Vout = Vref × (1 + R1/R2).
+Vout = Vref × (1 + R1/R2)
+Vref = 0.8V, R2 = 12.7k, R1 = 40.2k
+Vout = 0.8 × (1 + 40.2/12.7) = 3.33V
