@@ -7,3 +7,5 @@ This is the result of my python script running a simulation of my chosen buck co
 Vout = Vref × (1 + R1/R2)
 Vref = 0.8V, R2 = 12.7k, R1 = 40.2k
 Vout = 0.8 × (1 + 40.2/12.7) = 3.33V
+![pcb](documents/PCB_sensor.jpg)
+![pcb](documents/PCB_wall_mount.jpg)
